@@ -223,6 +223,7 @@ fun SearchCarpoolsScreen(
     var showCarpoolDetails by remember { mutableStateOf(false) }
     if  (showCarpoolDetails) {
         CarpoolDetails(context = context, buttonState = 0)
+        return
     }
     searchResultsView.initialize(
         SearchResultsView.Configuration(
@@ -305,7 +306,7 @@ fun SearchCarpoolsScreen(
                 )
             } else {
                 CarpoolLayout(carpool = Carpool("Carpool to Basketball Practice", destination = "Evergreen Middle School")) {
-
+                    showCarpoolDetails = true
                 }
             }
         }
