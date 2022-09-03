@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Carpool App</string>
+    <string name="title_activity_test_map">TestMapActivity</string>
+    <string name="title_activity_create_carpool">CreateCarpoolActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2xvZGhhIiwiYSI6ImNsNGE5NjB1YjE5eTgzY213Ymp1MXhoYWQifQ.Xr4XiVGq31-UPuWA-aYEAA</string>
+    <string name="title_activity_test_mapbox_activityh">TestMapboxActivityh</string>
+</resources>
